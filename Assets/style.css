@@ -39,15 +39,14 @@
   opacity: 0;
 }
 
-.navPlace {
-  position: fixed;
-  right: 0;
-  margin-right: 30px;
+.subHeader {
+  display: flex;
+  gap: 25px;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   opacity: 0;
   transition: 0.5s;
@@ -88,6 +87,9 @@ header {
 header img {
   height: 100%;
   position: relative;
+}
+header img:hover {
+  cursor: pointer;
 }
 body {
   background: #222438 0% 0% no-repeat padding-box;
