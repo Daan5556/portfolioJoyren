@@ -1,5 +1,4 @@
 <h1>About Me</h1>
-    </header>
 
     <section>
       <h2>Introduction</h2>

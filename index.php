@@ -9,7 +9,6 @@ if (!empty($_GET["page"])) {
 <html lang="en">
   <head>
     <?php include("include/head.php"); ?>
-    <link rel="stylesheet" href="Assets/styleIndex.css" />
   </head>
   <body>
     <?php include("include/header.php"); ?>
