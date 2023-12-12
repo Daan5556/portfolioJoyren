@@ -73,7 +73,7 @@ nav.is-active {
   font-family: basic-sans, sans-serif;
   font-size: 30px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 .navItems:hover {
@@ -104,5 +104,12 @@ body {
   nav {
     position: absolute;
     flex-direction: column;
+    width: 100%;
+    left: 0;
+    top: 59px;
+    background-color: black;
+  }
+  header {
+    height: 50px;
   }
 }

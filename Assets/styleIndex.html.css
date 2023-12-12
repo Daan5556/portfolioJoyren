@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: #fff;
 }
 
@@ -41,15 +44,26 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 80px;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
 }
 
 .skill {
   background-color: #1e2031;
   padding: 30px;
+  /* width: 30vw; */
+  margin: 10px;
   transition: 1s;
 }
 
 .skill:hover {
   transition: 0.3s;
   transform: translateY(-1rem);
+}
+
+@media (max-width: 1000px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
 }
