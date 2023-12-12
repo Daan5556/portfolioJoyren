@@ -9,6 +9,13 @@
   font-family: basic-sans, sans-serif;
 }
 
+#logo {
+  transition: transform 30s ease-in-out;
+}
+#logo:hover {
+  transform: scale(1.1);
+  transition: transform 30s ease-in-out;
+}
 .hamburger {
   position: relative;
   display: block;
@@ -57,6 +64,7 @@ nav {
   transition: 0.5s;
   text-align: right;
   pointer-events: none;
+  z-index: 100;
 }
 
 nav a {

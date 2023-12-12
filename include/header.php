@@ -1,8 +1,8 @@
 <header>
-      <img
+      <img id="logo"
         src="Assets/images/Logo.png"
         alt=""
-        onclick="window.location='/?page=home'"
+        onclick="window.location='/?page=home'" onmouseover="changeImage()" onmouseout="restoreImage()"
       />
       <div class="subHeader">
         <nav>

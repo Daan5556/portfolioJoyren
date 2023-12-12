@@ -25,25 +25,13 @@ function updateMenuState() {
   }
 }
 
+function changeImage() {
+  timeoutId = setTimeout(function () {
+    document.getElementById("logo").src = "Assets/images/LogoDistorted.png";
+  }, 5000);
+}
+
+function restoreImage() {
+  clearTimeout(timeoutId);
+}
 setInterval(updateMenuState, 1);
-
-// script.js
-document.addEventListener("DOMContentLoaded", function () {
-  const items = document.querySelectorAll(".accordion-item");
-
-  items.forEach((item) => {
-    item.addEventListener("click", function () {
-      this.classList.toggle("active");
-    });
-  });
-
-  // Check if there's a hash in the URL
-  const hash = window.location.hash.substring(1);
-
-  if (hash) {
-    const targetItem = document.getElementById(hash);
-    if (targetItem) {
-      targetItem.classList.add("active");
-    }
-  }
-});

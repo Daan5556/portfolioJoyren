@@ -1,5 +1,3 @@
-<h1>About Me</h1>
-
     <section>
       <h2>Introduction</h2>
       <p>
@@ -38,7 +36,7 @@
       </p>
     </section>
 
-    <section>
+    <section class="spantwo">
       <h2>Contact</h2>
       <p>
         Don't hesitate to contact me via email at
