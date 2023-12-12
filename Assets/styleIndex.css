@@ -66,4 +66,11 @@ h2 {
   .skills {
     grid-template-columns: 1fr;
   }
+  h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .profile p {
+    max-width: unset;
+  }
 }

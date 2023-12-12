@@ -8,4 +8,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="Assets/style.css" />
+    <?php
+    echo '<link rel="stylesheet" href="Assets/style ".$page".css" />'
+    ?>
     <script src="Assets/js/main.js" defer></script>
