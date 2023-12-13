@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+}
+
+iframe {
+  height: 90vh;
+  width: 80vw;
+  overflow: hidden;
+  padding-top: 50px;
+  border: none;
+  margin-bottom: 50px;
+}
