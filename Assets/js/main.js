@@ -34,4 +34,5 @@ function changeImage() {
 function restoreImage() {
   clearTimeout(timeoutId);
 }
+
 setInterval(updateMenuState, 1);

@@ -12,10 +12,12 @@
 #logo {
   transition: transform 30s ease-in-out;
 }
+
 #logo:hover {
   transform: scale(1.1);
   transition: transform 30s ease-in-out;
 }
+
 .hamburger {
   position: relative;
   display: block;
@@ -103,9 +105,11 @@ header img {
   height: 100%;
   position: relative;
 }
+
 header img:hover {
   cursor: pointer;
 }
+
 body {
   background: #222438 0% 0% no-repeat padding-box;
 }
@@ -119,6 +123,7 @@ body {
     top: 59px;
     background-color: black;
   }
+
   header {
     height: 50px;
     margin: 10px;

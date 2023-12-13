@@ -1,6 +1,7 @@
 * {
   color: #fff;
 }
+
 h2 {
   color: #e94756;
 }
@@ -21,6 +22,7 @@ section {
   padding: 40px;
   transition: 1s;
 }
+
 section:hover {
   /* transform: translateY(-1rem); */
   transform: scale(1.1);
@@ -42,6 +44,7 @@ a {
     grid-template-columns: 1fr;
     justify-content: center;
   }
+
   .spantwo {
     grid-column: unset;
     max-width: 34em;
