@@ -17,8 +17,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // Loop through data and display it
   while ($row = $result->fetch_assoc()) {
-    echo "ID: " . $row["Name"] . " - Name: " . $row["Mail"] . "<br>";
-    // Add more fields as needed
+    echo "Name: " . $row["Name"] . " - Mail: " . $row["Mail"] . " - Message: " . $row["Message"] . "<br>";
   }
 } else {
   echo "0 results";
