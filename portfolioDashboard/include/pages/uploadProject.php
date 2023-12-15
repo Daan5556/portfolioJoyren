@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $sql = "INSERT INTO projects (Title, Description) VALUES ('$title', '$description')";
 
   if ($conn->query($sql) === TRUE) {
-    echo "Record added successfully";
+    header("Location: ?page=projects");
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   }

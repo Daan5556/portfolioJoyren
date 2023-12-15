@@ -8,3 +8,10 @@
   crossorigin="anonymous"
 ></script>
 <link rel="stylesheet" href="include/assets/style/style.css">
+<?php
+$currentPage = isset($_GET['page']) ? $_GET['page'] : '';
+
+if ($currentPage === 'projects' || $currentPage === 'mail') {
+  echo '<link rel="stylesheet" href="include/assets/style/boxes.css">';
+}
+?>

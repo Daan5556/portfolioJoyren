@@ -15,9 +15,13 @@ $sql = "SELECT * FROM form";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-  // Loop through data and display it
   while ($row = $result->fetch_assoc()) {
-    echo "Name: " . $row["Name"] . " - Mail: " . $row["Mail"] . " - Message: " . $row["Message"] . "<br>";
+    echo '<div class="projects">';
+    echo '<h2>' . $row["Name"] . '</h2>';
+    echo '<p>' . $row["Mail"] . '</p>';
+    echo '<p>' . $row["Message"] . '</p>';
+    echo '</div>';
+
   }
 } else {
   echo "0 results";

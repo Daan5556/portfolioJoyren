@@ -1,0 +1,16 @@
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.projects {
+  background: #222438;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.projects p {
+  color: white;
+}

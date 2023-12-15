@@ -1,5 +1,6 @@
-<h2>Upload Project</h2>
 <form action="?page=uploadProject" method="POST">
+  <h2>Upload Project</h2>
+  <br>
   <label for="title">Title</label>
   <input type="text" name="title">
   <label for="description">Description</label>

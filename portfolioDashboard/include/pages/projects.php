@@ -15,11 +15,12 @@ $sql = "SELECT * FROM projects";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-  // Loop through data and display it
   while ($row = $result->fetch_assoc()) {
-    echo "Title: " . $row["Title"] . " - Description: " . $row["Description"] . "<br>";
+    echo '<div class="projects">';
+    echo '<h2>' . $row["Title"] . '</h2>';
+    echo '<p>' . $row["Description"] . '</p>';
+    echo '<a href="?page=deleteproject&id=' . $row["Title"] . '" onclick="return confirm(\'Are you sure you want to delete this project?\');"><button type="button">Delete Project</button></a>';
+    echo '</div>';
   }
-} else {
-  echo "0 results";
 }
 ?>
