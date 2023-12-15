@@ -18,7 +18,7 @@ $sql = "INSERT INTO form (name, mail, message) VALUES ('$name', '$email', '$mess
 
 
 if ($conn->query($sql) === TRUE) {
-  echo "Record added successfully";
+  header('location: ?page=submitted');
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

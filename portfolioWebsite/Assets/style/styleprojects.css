@@ -8,11 +8,14 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 70px;
   height: 100%;
   align-content: center;
   padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 h2 {
@@ -20,11 +23,8 @@ h2 {
 }
 
 .project {
-  max-width: 34em;
-}
-
-.project {
-  max-width: 34em;
+  width: 34em;
+  min-height: 390px;
   background-color: #1e2031;
   padding: 40px;
   transition: 1s;
