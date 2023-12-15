@@ -1,3 +1,5 @@
+<?php include("include/visitorTracking.php");?>
+
 <article class="profile">
   <h2>Hello, I'm <br/>a Software Developer</h2>
   <p>

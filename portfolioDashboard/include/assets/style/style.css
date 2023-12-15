@@ -110,4 +110,22 @@ input, textarea {
   border: none;
   border-radius: 10px;
   padding: 10px;
+  color: white;
+  background: #1a1c2a;
+  border: black solid 1px;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.project, .projects, form {
+  background: #222438;
+  border-radius: 10px;
+  padding: 55px;
+  color: white;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+

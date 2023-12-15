@@ -16,9 +16,10 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
-    echo '<div class="projects">';
+    echo '<div class="projects mail">';
     echo '<h2>' . $row["Name"] . '</h2>';
-    echo '<p>' . $row["Mail"] . '</p>';
+    echo '<p id="center">' . $row["Mail"] . '</p>';
+    echo '<br>';
     echo '<p>' . $row["Message"] . '</p>';
     echo '</div>';
 
