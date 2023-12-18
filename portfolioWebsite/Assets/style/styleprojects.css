@@ -53,4 +53,8 @@ i {
     flex-direction: column;
     align-items: center;
   }
+
+  .project {
+    max-width: 90vw;
+  }
 }

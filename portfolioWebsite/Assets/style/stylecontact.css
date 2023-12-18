@@ -35,3 +35,13 @@ i {
   font-size: 50px;
   color: #e94756;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .socialIcons {
+    flex-direction: row;
+  }
+}

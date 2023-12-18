@@ -7,7 +7,7 @@
   <input type="submit" value="Submit">
 </form>
 <div class="socialIcons">
-  <a href="#"><i class="fa-brands fa-github"></i></a>
-  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-  <a href="#"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://github.com/XCrazyCubeX" target="_blank"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/paulderix/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="mailto:505091@vistacollege.nl" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 </div>

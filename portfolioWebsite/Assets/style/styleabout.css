@@ -47,7 +47,10 @@ a {
 
   .spantwo {
     grid-column: unset;
-    max-width: 34em;
     text-align: unset;
+  }
+
+  section {
+    max-width: 90vw;
   }
 }
