@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
   $projectIdToDelete = $_GET['id'];
 
-  $sql = "DELETE FROM projects WHERE Title = '$projectIdToDelete'";
+  $sql = "DELETE FROM projects WHERE project_id = '$projectIdToDelete'";
 
   if ($conn->query($sql) === TRUE) {
     header("Location: ?page=projects");
