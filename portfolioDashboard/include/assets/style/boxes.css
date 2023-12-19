@@ -30,3 +30,15 @@
 .mail {
   justify-content: start;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}

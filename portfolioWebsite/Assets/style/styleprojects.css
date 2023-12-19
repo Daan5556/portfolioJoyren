@@ -25,12 +25,19 @@ h2 {
 .project {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 15px;
   width: 34em;
   min-height: 390px;
   background-color: #1e2031;
   padding: 40px;
   transition: 1s;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 i {

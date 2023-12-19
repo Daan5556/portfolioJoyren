@@ -129,3 +129,17 @@ input, textarea {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+select {
+  color: white;
+  background: #222438;
+  border: none;
+  height: 120px;
+  overflow: hidden;
+}
+
+option:hover {
+  background: black;
+}
+
+option
+
