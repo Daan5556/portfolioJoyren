@@ -13,7 +13,7 @@ $sql = "SELECT * FROM projects";
 $result = $conn->query($sql);
 ?>
 
-  <div class="project" onclick="window.location='/?page=projectsPages/assessmentPresentatie'">
+  <div class="project">
     <h2>Assessment Presentation</h2>
     <p>Embarking on the journey of creating a website for an assessment presentation was both a challenge and a delight.
       This project allowed me to blend design finesse with functionality, ensuring a seamless platform for showcasing
@@ -29,7 +29,7 @@ $result = $conn->query($sql);
       <i class="fa-brands fa-js"></i>
     </div>
   </div>
-  <div class="project" onclick="window.location='/?page=projectsPages/maatwerk'">
+  <div class="project">
     <h2>"Maatwerk" presentation</h2>
     <p>Crafting a bespoke digital space for my 'Maatwerk' presentation was a journey of personalization and precision.
       'Maatwerk,' meaning tailor-made in Dutch, perfectly encapsulates the essence of this project. From custom design
